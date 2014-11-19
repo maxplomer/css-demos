@@ -1,0 +1,52 @@
+/* RESET */
+
+section, body, html, header, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  text-decoration: inherit;
+}
+
+
+body {
+  margin: 50px auto;
+  font-family: sans-serif;
+  border: 5px solid #C8C8C8 ;
+  width: 510px;
+}
+
+section {
+  border: 5px solid #C8C8C8 ;
+  margin: auto;
+  width: 500px;
+}
+
+section > header {
+}
+
+.profPic {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 20px;
+  border: 2px solid blue;
+}
+
+header > h1 {
+  padding-top: 20px;
+  color: blue;
+  font-weight: bold;
+}
+
+header > h2 {
+  color: #C8C8C8;
+}
+
+section > p {
+  clear: both;
+  border-top: 2px solid #C8C8C8;
+  padding: 15px;
+}
